@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image to PDF Converter</title>
+</head>
+<body>
+	<form id="image-form">
+		<input type="file" id="image-input" name="image[]" accept="image/*" multiple>
+		<button type="button" onclick="convertToPDF()">Convert to PDF</button>
+	</form>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.2/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+	<script src="jsimgpdf.js"></script>
+</body>
+</html>
